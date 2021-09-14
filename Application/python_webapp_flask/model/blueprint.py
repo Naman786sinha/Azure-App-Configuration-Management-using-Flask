@@ -1,7 +1,6 @@
 from flask_restplus import Api
 from flask import url_for, Blueprint
 from python_webapp_flask.configuration import config
-#from python_webapp_flask.configuration.logger import debug, error, warning
 
 
 blueprint = Blueprint('App Configuration Manager', __name__, url_prefix="/azure_app_configuration")
